@@ -1,0 +1,6 @@
+Commands
+ls: list of files in the directory 
+mkdir: new directory
+touch file_name.txt : to create a new text document
+mv a.txt b.txt: to rename the text document 
+rm b.txt: to remove the  text document

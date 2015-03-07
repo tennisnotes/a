@@ -1,0 +1,45 @@
+
+After successfully installing git bash
+Tell Git who you are
+Global Configuration has to be declared and its done by 
+$git config --global user.name "Your_Name"
+$git config --global user.email "Your_Email_Address"
+
+Create a new local repository
+$git init
+
+Check out a repository
+$git init
+
+Create a working copy of a local repository:	
+$git clone /path/to/repository
+
+For a remote server, use:	
+$git clone username@host:/path/to/repository or 
+$git clone URL_for_the_repository.com
+
+if files are added in the website after clone you need to pull the files
+$git pull URL_for_the_repository.com
+
+Status	
+List the files you've changed and those you still need to add or commit:	
+$git status
+
+To Add files
+Add one or more files to staging (index):	
+$git add <filename>
+or
+$git add *
+
+Commit
+Commit changes to head (but not yet to the remote repository):	
+$git commit -m "Commit message"
+
+Commit any files you've added with git add, and also commit any files you've changed since then:	
+$git commit -a
+
+Push
+Send changes to the remote repository:	
+$git push 
+
+
